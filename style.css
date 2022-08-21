@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+#colorpicker {
+    height: 50px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #colorpicker {
+        margin: 20px 0;
+        height: 40px;
+        width: 150px;
+        border: none;
+    }
+}
